@@ -1,4 +1,4 @@
-﻿analytics:
+analytics:
   ua: ''
   gtag: ''
   gtm: ''
@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Deutschland
+  adjective: deutsch
 create_goals:
   previous_next_links: false
   goals: []
@@ -51,21 +51,21 @@ data_fields:
   series: ''
 date_formats: []
 disclaimer:
-  phase: ''
-  message: ''
+  phase: alpha
+  message: Testseite
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: mazup@gmx.net
+  suggestions: mazup@gmx.net
+  functional: mazup@gmx.net
 environment: staging
 footer_language_toggle: none
 footer_menu:
   - path: /contact-us
     translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
+  - path: https://twitter.com/MyTwitterAccount
     translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
+  - path: https://facebook.com/MyFacebookAccount
     translation_key: general.facebook
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
@@ -82,7 +82,7 @@ frontpage_cards:
       cursus est sed dapibus.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: https://example.com
     rule_color: ''
   - title: Nam vestibulum
     content: |
@@ -90,7 +90,7 @@ frontpage_cards:
       interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: https://example.com
     rule_color: ''
 frontpage_goals_grid:
   title: frontpage.heading_short
@@ -98,7 +98,7 @@ frontpage_goals_grid:
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 goal_image_extension: ''
 goals_page:
   title: general.goals
@@ -138,7 +138,6 @@ indicator_tabs:
   tab_3: ''
   tab_4: ''
 languages:
-  - en
   - de
 languages_public: []
 logos: []
@@ -187,10 +186,10 @@ menu:
     dropdown: []
   - path: /faq
     translation_key: menu.faq
-    dropdown: []  
+    dropdown: []
   - path: /about
     translation_key: menu.about
-    dropdown: []    
+    dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
@@ -207,7 +206,7 @@ news:
 progress_status:
   status_heading: ''
   status_types: []
-remote_data_prefix: 'https://mazup.github.io/osdg-data/'
+remote_data_prefix: https://mazup.github.io/osdg-data/
 reporting_status:
   title: status.reporting_status
   description: status.description
@@ -222,8 +221,8 @@ reporting_status:
     - value: notapplicable
       label: status.not_applicable
       hide_on_goal_pages: false
-repository_url_data: 'https://github.com/Mazup/osdg-data'
-repository_url_site: ''
+repository_url_data: https://github.com/Mazup/osdg-data
+repository_url_site: https://github.com/Mazup/osdg-site
 search_index_boost: []
 search_index_extra_fields: []
 site_config_form:
@@ -237,6 +236,6 @@ time_series_attributes:
   - field: DATA_LAST_UPDATE
     label: metadata_fields.national_data_update_url
 validate_indicator_config: false
-validate_site_config: false
+validate_site_config: true
 x_axis_label: ''
 use_new_config_forms: true
